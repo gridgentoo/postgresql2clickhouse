@@ -1,6 +1,6 @@
-## PostgreSQL to ClickHouse
-Original repository
-https://github.com/mkabilov/pg2ch
+## PostgreSQL to ClickHouse  
+Original repository  
+https://github.com/mkabilov/pg2ch  
 
 Continuous data transfer from PostgreSQL to ClickHouse using logical replication mechanism.
 
