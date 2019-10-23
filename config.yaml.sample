@@ -1,0 +1,25 @@
+tables:
+    pgbench_accounts:
+        main_table: pgbench_accounts
+        engine: CollapsingMergeTree
+        sign_column: sign
+        max_buffer_length: 1000
+
+clickhouse:
+    host: localhost
+    port: 9000
+    database: default
+    username: default
+    params:
+        debug: false
+
+postgres:
+    host: localhost
+    port: 5432
+    database: pg2ch
+    user: postgres
+    replication_slot_name: my_slot
+    publication_name: my_pub
+
+db_path: db
+inactivity_flush_timeout: '30s'
